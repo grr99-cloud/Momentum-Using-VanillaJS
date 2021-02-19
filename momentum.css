@@ -3,7 +3,40 @@ body {
 }
 h1 {
   color: rgb(96, 78, 114);
-  font-size: 2cm;
+  font-size: 75px;
   margin-top: 20%;
   text-align: center;
+}
+
+.form,
+.greetings {
+  display: none;
+  text-align: center;
+}
+
+.form input {
+  width: 7cm;
+  height: 1cm;
+  font-size: 20px;
+  text-align: center;
+  background-color: rgb(255, 255, 225);
+  border-style: none;
+  border-radius: 10px;
+  color: rgb(128, 84, 122);
+}
+
+.form input:focus {
+  outline: none;
+}
+
+.form input::placeholder {
+  color: rgb(128, 84, 122);
+}
+
+.greetings {
+  font-size: 30px;
+}
+
+.showing {
+  display: block;
 }
