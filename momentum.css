@@ -1,0 +1,9 @@
+body {
+  background-image: url("background.jpg");
+}
+h1 {
+  color: rgb(96, 78, 114);
+  font-size: 2cm;
+  margin-top: 20%;
+  text-align: center;
+}
